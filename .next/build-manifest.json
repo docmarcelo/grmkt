@@ -24,6 +24,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/hovepage": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/hovepage.js"
+    ],
     "/landing": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

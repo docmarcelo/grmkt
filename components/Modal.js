@@ -18,7 +18,7 @@ const Modal = () => {
       const timer = setTimeout(() => {
         setIsShown(true);
         sessionStorage.popupModal = 1;
-      }, 1000);
+      }, 5000);
 
       return () => clearTimeout(timer);
     }
@@ -26,7 +26,7 @@ const Modal = () => {
 
   // return isShown ? <h3>Modal content</h3> : null;
   return isShown ? (
-    <div className="modal" style={dynammicModalClass()} id="channelModal">
+    <div className="back modal" style={dynammicModalClass()} id="channelModal">
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="bg-info modal-content">
           <div className="modal-header">
@@ -41,6 +41,7 @@ const Modal = () => {
               aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+           
           </div>
 
           <div className="bg-info modal-body">
