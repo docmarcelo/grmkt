@@ -50,6 +50,11 @@ const Menu = (props) => {
                                 <a>Contato</a>
                             </Link>
                             </NavItem> 
+                            <NavItem className="ml-4">
+                            <Link href="/hovepage">
+                                <a>Hover</a>
+                            </Link>
+                            </NavItem> 
                         </Nav> 
                     </Collapse> 
                 </Container> 
