@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-=======
-  "/hovepage": "pages/hovepage.js",
->>>>>>> ca376c79b403694d57686671a69b8b4d17e1bbea
-  "/landing": "pages/landing.js"
+  "/": "pages/index.js"
 }

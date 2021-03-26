@@ -9,7 +9,7 @@ import { Jumbotron, Container } from 'reactstrap';
 
 function Home() {
     return (
-        <div >
+        <div>
             
         <Head>
                 <title>Home - grmkt</title>
