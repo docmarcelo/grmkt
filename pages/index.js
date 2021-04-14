@@ -20,7 +20,7 @@ function Home() {
                         <title>Home - grmkt</title>
                         <meta name="description" content="Site de...sobre..."/>
                 </Head>
-        <Menu / >
+        <Menu />
         
         <Jumbotron fluid className="descr-topo">
         <style>
